@@ -17,13 +17,13 @@ const Footer = () => {
       className="m-auto mt-2 footer d-flex justify-content-center"
       style={{ width: "75%" }}
     >
-      <a href="#" class="sheer-button">
+      <a href="#" className="sheer-button">
         TIER
       </a>
-      <a href="#" class="trapezoid-button">
+      <a href="#" className="trapezoid-button">
         MOONSHOT BALANCE
       </a>
-      <a href="#" class="mirror-sheer-button">
+      <a href="#" className="mirror-sheer-button">
         TOTAL NFTs
       </a>
     </div>
