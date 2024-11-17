@@ -321,7 +321,7 @@ body {
   position: relative;
   border: none;
   cursor: pointer;
-  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
   transition: all 0.3s ease-in-out;
 }
 
@@ -334,7 +334,7 @@ body {
   transform: translateY(0);
 }
 .sheer-button1 {
-  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%);
 }
 .sheer-button2 {
   clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
@@ -355,7 +355,7 @@ a {
 /* Sheer Button */
 .sheer-button {
   background: linear-gradient(45deg, #11b0c4, #496469);
-  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+  clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
 }
 
 .sheer-button:hover {
@@ -366,7 +366,7 @@ a {
 /* Trapezoid Button */
 .trapezoid-button {
   background: transparent;
-  clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
   margin: 0;
   border: 1px solid #008c9e;
 }
