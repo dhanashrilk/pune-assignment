@@ -22,7 +22,7 @@ function App() {
         <div className="triangle top-left"></div>
         <div className="triangle top-right"></div>
       </div>
-      <Router>
+      <Router basename="/pune-assignment">
         <div className="main-page d-flex">
           <div className="back-ground"></div>
           <div>
@@ -30,7 +30,7 @@ function App() {
             <div className="wavy-line"></div>
           </div>
 
-          <Routes basename="/pune-assignment">
+          <Routes>
             <Route
               path="/"
               element={
