@@ -30,7 +30,7 @@ function App() {
             <div className="wavy-line"></div>
           </div>
 
-          <Routes>
+          <Routes basename="/pune-assignment">
             <Route
               path="/"
               element={
