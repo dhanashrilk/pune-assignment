@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pune-assignment/static/css/main.ad38df67.css",
-    "main.js": "/pune-assignment/static/js/main.7a5a5c92.js",
+    "main.js": "/pune-assignment/static/js/main.6ed601e9.js",
     "static/js/453.6e0a8709.chunk.js": "/pune-assignment/static/js/453.6e0a8709.chunk.js",
     "static/media/4.webp": "/pune-assignment/static/media/4.62e49f5feb397e35440e.webp",
     "static/media/astro_painter.png": "/pune-assignment/static/media/astro_painter.b38940e57f1563c94a7b.png",
@@ -20,11 +20,11 @@
     "static/media/slick.woff": "/pune-assignment/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/pune-assignment/index.html",
     "main.ad38df67.css.map": "/pune-assignment/static/css/main.ad38df67.css.map",
-    "main.7a5a5c92.js.map": "/pune-assignment/static/js/main.7a5a5c92.js.map",
+    "main.6ed601e9.js.map": "/pune-assignment/static/js/main.6ed601e9.js.map",
     "453.6e0a8709.chunk.js.map": "/pune-assignment/static/js/453.6e0a8709.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad38df67.css",
-    "static/js/main.7a5a5c92.js"
+    "static/js/main.6ed601e9.js"
   ]
 }
