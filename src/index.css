@@ -306,3 +306,98 @@ body {
   right: 1px;
   rotate: 45deg;
 }
+
+.sheer-button {
+  display: inline-block;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #0078ff, #00d4ff);
+  text-decoration: none;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.sheer-button:hover {
+  background: linear-gradient(45deg, #0057b7, #00a3cc);
+  transform: translateY(-5px);
+}
+
+.sheer-button:active {
+  transform: translateY(0);
+}
+.sheer-button1 {
+  clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%);
+}
+.sheer-button2 {
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+}
+*/
+
+/* Three footer buttons */
+
+a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+/* Sheer Button */
+.sheer-button {
+  background: linear-gradient(45deg, #11b0c4, #496469);
+  clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+}
+
+.sheer-button:hover {
+  background: linear-gradient(45deg, #496469, #11b0c4);
+  transform: translateY(-5px);
+}
+
+/* Trapezoid Button */
+.trapezoid-button {
+  background: transparent;
+  clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
+  margin: 0;
+  border: 1px solid #008c9e;
+}
+
+.trapezoid-button:hover {
+  background: repeating-linear-gradient(30deg, #008c9e, #3c656a, #008c9e 20px)
+    60;
+  transform: translateY(-5px);
+  border: 1px solid #008c9e;
+}
+
+/* Mirror Sheer Button */
+.mirror-sheer-button {
+  background: linear-gradient(45deg, #496469, #11b0c4);
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 16% 100%);
+}
+
+.mirror-sheer-button:hover {
+  background: linear-gradient(45deg, #11b0c4, #11b0c4);
+  transform: translateY(-5px);
+}
+
+/* General Button Styling */
+.sheer-button,
+.trapezoid-button,
+.mirror-sheer-button {
+  margin: 0;
+  flex: 1;
+  display: block;
+  margin-left: -39px;
+  text-align: center;
+  padding-top: 7px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+}
