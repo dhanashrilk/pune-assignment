@@ -6,6 +6,8 @@ import ThirdPage from "./components/ThirdPage";
 import "./App.css";
 import Footer from "./components/Footer";
 import Firstpage from "./components/firstpage";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
