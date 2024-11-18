@@ -1,7 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Courgette&family=Domine:wght@400..700&family=DynaPuff:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Courgette&family=Domine:wght@400..700&family=DynaPuff:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap");
-
 body {
   font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
   border-top: 40px solid transparent;
@@ -318,7 +314,7 @@ body {
   position: relative;
   border: none;
   cursor: pointer;
-  /* clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%); */
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
   transition: all 0.3s ease-in-out;
 }
 
@@ -330,12 +326,12 @@ body {
 .sheer-button:active {
   transform: translateY(0);
 }
-/* .sheer-button1 {
+.sheer-button1 {
   clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%);
 }
 .sheer-button2 {
   clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
-} */
+}
 */
 
 /* Three footer buttons */
@@ -352,7 +348,7 @@ a {
 /* Sheer Button */
 .sheer-button {
   background: linear-gradient(45deg, #11b0c4, #496469);
-  /* clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%); */
+  clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
 }
 
 .sheer-button:hover {
@@ -363,7 +359,7 @@ a {
 /* Trapezoid Button */
 .trapezoid-button {
   background: transparent;
-  /* clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%); */
+  clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
   margin: 0;
   border: 1px solid #008c9e;
 }
@@ -378,7 +374,7 @@ a {
 /* Mirror Sheer Button */
 .mirror-sheer-button {
   background: linear-gradient(45deg, #496469, #11b0c4);
-  /* clip-path: polygon(0 0, 75% 0, 100% 100%, 16% 100%); */
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 16% 100%);
 }
 
 .mirror-sheer-button:hover {
